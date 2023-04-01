@@ -347,7 +347,7 @@ input[type="button"]:active{
 .box3 {
   display: flex;
   justify-content: center;
-  margin-top: 5%;
+  margin-top: 10%;
 }
 .box3-3 {
   display: flex;
@@ -554,7 +554,7 @@ input[type="button"]:active{
 .box4 {
   display: flex;
   justify-content: center;
-  margin-top: 5%;
+  margin-top: 10%;
   background-color: #FAFAFA;
   padding-top: 9%;
   padding-bottom: 9%;
@@ -625,7 +625,7 @@ input[type="button"]:active{
 .box5 {
   display: flex;
   justify-content: center;
-  margin-top: 5%;
+  margin-top: 10%;
 }
 .box5-5 {
   display: flex;
@@ -720,7 +720,7 @@ input[type="button"]:active{
 .box6 {
   display: flex;
   justify-content: center;
-  margin-top: 5%;
+  margin-top: 10%;
   background-color: #FAFAFA;
   padding-top: 7%;
   padding-bottom: 7%;
@@ -822,7 +822,7 @@ input[type="button"]:active{
 .box7 {
   display: flex;
   justify-content: center;
-  margin-top: 5%;
+  margin-top: 10%;
 }
 .box7-7 {
   display: flex;
@@ -902,7 +902,7 @@ input[type="button"]:active{
 .box8 {
   display: flex;
   justify-content: center;
-  margin-top: 10%;
+  margin-top: 15%;
   padding-top: 5%;
   border-top: #D4D4D8 1px solid;
 
