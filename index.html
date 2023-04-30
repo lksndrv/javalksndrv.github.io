@@ -38,7 +38,7 @@
                 </ul>
             </nav>
             <div class="box1__buttons">
-                <button  class="box1__signup" type="button">
+                <button  class="box1__signup" type="button" id="open-modal-btn">
                     Sign up
                 </button>
                 <button class="box1__burger-btn" id="burger">
@@ -51,9 +51,18 @@
     </header>
 
 
-    <section class="signup">
-        <div class="signup-1">
-            <img src="./imgs/Framelogo.png" alt="logo">
+    <section class="modal" id="my-modal">
+        <div class="modal__box">
+            <div class="signup__imgs">
+                <img src="./imgs/Framelogo.png" alt="logo">
+                <button class="modal__close-btn" id="close-my-modal-btn">
+                    <svg width="23" height="25" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2.09082 0.03125L22.9999 22.0294L20.909 24.2292L-8.73579e-05 2.23106L2.09082 0.03125Z"
+                            fill="#333333" />
+                        <path d="M0 22.0295L20.9091 0.0314368L23 2.23125L2.09091 24.2294L0 22.0295Z" fill="#333333" />
+                    </svg>
+                </button>
+            </div>
             <div class="signtxt">
                 <h3>Create an account and start trading with us today!</h3>
             </div>
@@ -414,6 +423,7 @@
 <script src=""></script>
 <script src="./tabs.js"></script>
 <script src="./burger.js"></script>
+<script src="./modal.js"></script>
 
 </body>
 </html>
