@@ -12,26 +12,43 @@
     
     <header class="box1">
         <div class="box1-1">
-            <div class="box1-one">
-                <img src="./imgs/Framelogo.png" alt="logo">
+            <a href="#" class="logo">
+                <img class="logo__img" src="./imgs/Framelogo.png" alt="Логотип">
+            </a>
+            <nav class="box1__menu">
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">Products</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">Prices</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">Buy</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">OTC</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">Learn</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">Help</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="box1__buttons">
+                <button  class="box1__signup" type="button">
+                    Sign up
+                </button>
+                <button class="box1__burger-btn" id="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
             </div>
-            <div class="box1-two">
-                <a href="">Products</a>
-                <a href="">Prices</a>
-                <a href="">Buy</a>
-                <a href="">OTC</a>
-                <a href="">Learn</a>
-                <a href="">Help</a>
-            </div>     
-            <div class="box1-burger">
-                <a href="" class="burger"><img src="./imgs/menu-icon.png"alt="burger"></a>
-            </div>
-            <button  class="box1-three" type="button">
-                Sign up
-            </button>
         </div>
     </header>
-
 
 
     <section class="signup">
@@ -66,200 +83,208 @@
         </div>
     </section>
 
-    
-    <section class="box3">
-        <div class="box3-3">
-            <div class="box3-one">
-                <div class="txt3-one-1">
-                    <a href="">Most Popular</a>
+    <div class="tabs">
+        <div class="tabs__nav">
+            <button class="tabs__nav-btn" type="button" data-tab="#tab_1">Crypto</button>
+            <button class="tabs__nav-btn" type="button" data-tab="#tab_2">Why we?</button>
+            <button class="tabs__nav-btn" type="button" data-tab="#tab_3">Buy, sell and trade</button>
+        </div>
+        <div class="tabs__content">
+            <div class="tabs__item" id="tab_1">
+                <section class="box3">
+            <div class="box3-3">
+                <div class="box3-one">
+                    <div class="txt3-one-1">
+                        <a href="">Most Popular</a>
+                    </div>
+                    <div class="txt3-one-2">
+                        <a href="">Top Movers</a> 
+                    </div>
                 </div>
-                <div class="txt3-one-2">
-                    <a href="">Top Movers</a> 
+                <div class="box3-two">
+                    <div class="txt3-two-1">Asset</div>
+                    <div class="txt3-two-2">Last Price</div>
+                    <div class="txt3-two-3">24hr Change</div>
+                    <div class="txt3-two-4">ㅤ</div>
+                </div>
+                <div class="box3-three">
+                    <div class="box3-three-item-1">
+                        <img src="./imgs/IMAGExrp.png" alt="xrp">
+                        <p>XRP</p>
+                    </div>
+                    <div class="box3-three-item-2">
+                        <h3>$0.5617</h3>
+                        <p>AUD</p>
+                    </div>
+                    <div class="box3-three-item-3">
+                        <h4>1.57%</h4>
+                        <img src="./imgs/Framestrela.png" alt="strela">
+                    </div>
+                    <div class="box3-button">
+                        <button class="box3-three-button" type="button">
+                            Buy
+                        </button>
+                    </div>
+                    
+                </div>
+                <div class="box3-four">
+                    <div class="box3-three-item-1">
+                        <img src="./imgs/IMAGEbitcoin.png" alt="bitcoin">
+                        <p>Bitcoin</p>
+                    </div>
+                    <div class="box3-three-item-2">
+                        <h3>$30,165.43</h3>
+                        <p>AUD</p>
+                    </div>
+                    <div class="box3-three-item-3">
+                        <h5>-0.08%</h5>
+                        <img src="./imgs/Framestrela.png" alt="strela">
+                    </div>
+                    <div class="box3-button">
+                        <button class="box3-three-button" type="button">
+                            Buy
+                        </button>
+                    </div>
+                </div>
+                <div class="box3-five">
+                    <div class="box3-three-item-1">
+                        <img src="./imgs/IMAGEethereum.png" alt="ethereum">
+                        <p>Ethereum</p>
+                    </div>
+                    <div class="box3-three-item-2">
+                        <h3>$2,215.50</h3>
+                        <p>AUD</p>
+                    </div>
+                    <div class="box3-three-item-3">
+                        <h5>-1.08%</h5>
+                        <img src="./imgs/Framestrela.png" alt="strela">
+                    </div>
+                    <div class="box3-button">
+                        <button class="box3-three-button" type="button">
+                            Buy
+                        </button>
+                    </div>
+                </div>
+                <div class="box3-six">
+                    <div class="box3-three-item-1">
+                        <img src="./imgs/IMAGEtether.png" alt="tether">
+                        <p>Tether</p>
+                    </div>
+                    <div class="box3-three-item-2">
+                        <h3>$1.4544</h3>
+                        <p>AUD</p>
+                    </div>
+                    <div class="box3-three-item-3">
+                        <h4>2.36%</h4>
+                        <img src="./imgs/Framestrela.png" alt="strela">
+                    </div>
+                    <div class="box3-button">
+                        <button class="box3-three-button" type="button">
+                            Buy
+                        </button>
+                    </div>
+                </div>
+                <div class="box3-seven">
+                    <div class="box3-three-item-1">
+                        <img src="./imgs/IMAGEenjin coin.png" alt="enjin coin">
+                        <p>Enjin Coin</p>
+                    </div>
+                    <div class="box3-three-item-2">
+                        <h3>$0.6129</h3>
+                        <p>AUD</p>
+                    </div>
+                    <div class="box3-three-item-3">
+                        <h4>16.41%</h4>
+                        <img src="./imgs/Framestrela.png" alt="strela">
+                    </div>
+                    <div class="box3-button">
+                        <button class="box3-three-button" type="button">
+                            Buy
+                        </button>
+                    </div>
                 </div>
             </div>
-            <div class="box3-two">
-                <div class="txt3-two-1">Asset</div>
-                <div class="txt3-two-2">Last Price</div>
-                <div class="txt3-two-3">24hr Change</div>
-                <div class="txt3-two-4">ㅤ</div>
+                </section>
             </div>
-            <div class="box3-three">
-                <div class="box3-three-item-1">
-                    <img src="./imgs/IMAGExrp.png" alt="xrp">
-                    <p>XRP</p>
+            <div class="tabs__item" id="tab_2">
+                <section class="box4">
+            <div class="box4-4">
+                <div class="box4-one">
+                    Why BTC Markets?
                 </div>
-                <div class="box3-three-item-2">
-                    <h3>$0.5617</h3>
-                    <p>AUD</p>
-                </div>
-                <div class="box3-three-item-3">
-                    <h4>1.57%</h4>
-                    <img src="./imgs/Framestrela.png" alt="strela">
-                </div>
-                <div class="box3-button">
-                    <button class="box3-three-button" type="button">
-                        Buy
-                    </button>
-                </div>
-                
-            </div>
-            <div class="box3-four">
-                <div class="box3-three-item-1">
-                    <img src="./imgs/IMAGEbitcoin.png" alt="bitcoin">
-                    <p>Bitcoin</p>
-                </div>
-                <div class="box3-three-item-2">
-                    <h3>$30,165.43</h3>
-                    <p>AUD</p>
-                </div>
-                <div class="box3-three-item-3">
-                    <h5>-0.08%</h5>
-                    <img src="./imgs/Framestrela.png" alt="strela">
-                </div>
-                <div class="box3-button">
-                    <button class="box3-three-button" type="button">
-                        Buy
-                    </button>
+                <div class="box4-two">
+                    <div class="box4-item">
+                        <img src="./imgs/Group 2why1.png" alt="why1">
+                        <h3>Security</h3>
+                        <p>Multiple layers of account security, 2FA, address whitelisting, Biometrics.</p>
+                    </div>
+                    <div class="box4-item">
+                        <img src="./imgs/Group 3why2.png" alt="why2">
+                        <h3>Speed</h3>
+                        <p>Fast trade executions with an industry leading uptime of 99.99%.</p>
+                    </div>
+                    <div class="box4-item">
+                        <img src="./imgs/Group 4why3.png" alt="why3">
+                        <h3>Support</h3>
+                        <p>100% Australian-based customer support, OTC desk and VIP Program.</p>
+                    </div>
                 </div>
             </div>
-            <div class="box3-five">
-                <div class="box3-three-item-1">
-                    <img src="./imgs/IMAGEethereum.png" alt="ethereum">
-                    <p>Ethereum</p>
+                </section>
+            </div>
+            <div class="tabs__item" id="tab_3">
+                <section class="box5">
+            <div class="box5-5">
+                <div class="box5-one">
+                    <div class="box5-one-1">
+                        Trade
+                    </div>
+                    <div class="box5-one-2">
+                        Buy, sell and trade crypto with confidence
+                    </div>
+                    <div class="box5-one-3">
+                        <div class="box5-one-item">
+                            <img src="./imgs/Framesimple  buy.png" alt="simple buy">
+                            <h3>Simple buy & sell options</h3>
+                            <p>Buy and sell cryptocurrency quickly and easily.</p>
+                            <div class="img5">
+                                <a href="" ><img src="./imgs/Vectordown.png" alt="stela"></a>
+                            </div>
+                        </div>
+                        <div class="box5-one-item">
+                            <img src="./imgs/Frameadvanced.png" alt="advamced">
+                            <h3>Advanced trading</h3>
+                            <p>Access advanced order types including limit, market, stop limit and dollar cost averaging.</p> 
+                            <div class="img5">
+                                <a href="" ><img src="./imgs/Vectordown.png" alt="stela"></a>
+                            </div>
+                        </div>
+                        <div class="box5-one-item">
+                            <img src="./imgs/Frameportfolio.png" alt="portfolio">
+                            <h3>Portfolio tracking</h3>
+                            <p>Track your total asset holdings, values and equity over time.</p>
+                            <div class="img5">
+                                <a href="" ><img src="./imgs/Vectordown.png" alt="stela"></a>
+                            </div>
+                        </div>
+                        <div class="box5-one-item">
+                            <img src="./imgs/Framemobile app.png" alt="mobile">
+                            <h3>Mobile app</h3>
+                            <p>Monitor markets, manage your portfolio, and trade crypto on the go.</p>
+                            <div class="img5">
+                                <a href="" ><img src="./imgs/Vectordown.png" alt="stela"></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="box3-three-item-2">
-                    <h3>$2,215.50</h3>
-                    <p>AUD</p>
-                </div>
-                <div class="box3-three-item-3">
-                    <h5>-1.08%</h5>
-                    <img src="./imgs/Framestrela.png" alt="strela">
-                </div>
-                <div class="box3-button">
-                    <button class="box3-three-button" type="button">
-                        Buy
-                    </button>
+                <div class="box5-two">
+                    <img src="./imgs/IMAGEbig photo.png" alt="big photo">
                 </div>
             </div>
-            <div class="box3-six">
-                <div class="box3-three-item-1">
-                    <img src="./imgs/IMAGEtether.png" alt="tether">
-                    <p>Tether</p>
-                </div>
-                <div class="box3-three-item-2">
-                    <h3>$1.4544</h3>
-                    <p>AUD</p>
-                </div>
-                <div class="box3-three-item-3">
-                    <h4>2.36%</h4>
-                    <img src="./imgs/Framestrela.png" alt="strela">
-                </div>
-                <div class="box3-button">
-                    <button class="box3-three-button" type="button">
-                        Buy
-                    </button>
-                </div>
-            </div>
-            <div class="box3-seven">
-                <div class="box3-three-item-1">
-                    <img src="./imgs/IMAGEenjin coin.png" alt="enjin coin">
-                    <p>Enjin Coin</p>
-                </div>
-                <div class="box3-three-item-2">
-                    <h3>$0.6129</h3>
-                    <p>AUD</p>
-                </div>
-                <div class="box3-three-item-3">
-                    <h4>16.41%</h4>
-                    <img src="./imgs/Framestrela.png" alt="strela">
-                </div>
-                <div class="box3-button">
-                    <button class="box3-three-button" type="button">
-                        Buy
-                    </button>
-                </div>
+                </section>
             </div>
         </div>
-    </section>
-
-
-    <section class="box4">
-        <div class="box4-4">
-            <div class="box4-one">
-                Why BTC Markets?
-            </div>
-            <div class="box4-two">
-                <div class="box4-item">
-                    <img src="./imgs/Group 2why1.png" alt="why1">
-                    <h3>Security</h3>
-                    <p>Multiple layers of account security, 2FA, address whitelisting, Biometrics.</p>
-                </div>
-                <div class="box4-item">
-                    <img src="./imgs/Group 3why2.png" alt="why2">
-                    <h3>Speed</h3>
-                    <p>Fast trade executions with an industry leading uptime of 99.99%.</p>
-                </div>
-                <div class="box4-item">
-                    <img src="./imgs/Group 4why3.png" alt="why3">
-                    <h3>Support</h3>
-                    <p>100% Australian-based customer support, OTC desk and VIP Program.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="box5">
-        <div class="box5-5">
-            <div class="box5-one">
-                <div class="box5-one-1">
-                    Trade
-                </div>
-                <div class="box5-one-2">
-                    Buy, sell and trade crypto with confidence
-                </div>
-                <div class="box5-one-3">
-                    <div class="box5-one-item">
-                        <img src="./imgs/Framesimple  buy.png" alt="simple buy">
-                        <h3>Simple buy & sell options</h3>
-                        <p>Buy and sell cryptocurrency quickly and easily.</p>
-                        <div class="img5">
-                            <a href="" ><img src="./imgs/Vectordown.png" alt="stela"></a>
-                        </div>
-                    </div>
-                    <div class="box5-one-item">
-                        <img src="./imgs/Frameadvanced.png" alt="advamced">
-                        <h3>Advanced trading</h3>
-                        <p>Access advanced order types including limit, market, stop limit and dollar cost averaging.</p> 
-                        <div class="img5">
-                            <a href="" ><img src="./imgs/Vectordown.png" alt="stela"></a>
-                        </div>
-                    </div>
-                    <div class="box5-one-item">
-                        <img src="./imgs/Frameportfolio.png" alt="portfolio">
-                        <h3>Portfolio tracking</h3>
-                        <p>Track your total asset holdings, values and equity over time.</p>
-                        <div class="img5">
-                            <a href="" ><img src="./imgs/Vectordown.png" alt="stela"></a>
-                        </div>
-                    </div>
-                    <div class="box5-one-item">
-                        <img src="./imgs/Framemobile app.png" alt="mobile">
-                        <h3>Mobile app</h3>
-                        <p>Monitor markets, manage your portfolio, and trade crypto on the go.</p>
-                        <div class="img5">
-                            <a href="" ><img src="./imgs/Vectordown.png" alt="stela"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="box5-two">
-                <img src="./imgs/IMAGEbig photo.png" alt="big photo">
-            </div>
-        </div>
-    </section>
-
-
+    </div>
 
 
     <section class="box6">
@@ -384,5 +409,11 @@
             </div>
         </div>
     </section>
+
+
+<script src=""></script>
+<script src="./tabs.js"></script>
+<script src="./burger.js"></script>
+
 </body>
 </html>
