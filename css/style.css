@@ -1366,7 +1366,7 @@ input[type="button"]:active{
   }
   .box1__menu {
       position: absolute;
-      right: -400px;
+      right: -500px;
       top: 0;
       width: 350px;
       background-color: rgb(64, 218, 172);
