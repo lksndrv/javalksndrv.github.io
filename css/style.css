@@ -418,6 +418,9 @@ input[type="button"]:active{
   width: 100%;
   align-items: center;
   justify-content: center;
+  background-color: rgb(234, 255, 250);
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 .tabs__nav-btn{
   font-family: 'Lexend';
