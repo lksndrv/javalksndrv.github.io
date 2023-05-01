@@ -1580,6 +1580,10 @@ input[type="button"]:active{
 }
 
 @media  (max-width:520px) {  
+  .menu__link {
+    font-size: 13px;
+    line-height: 16px;
+  }
   .modal__box {
     width: 300px;
     height: 310px;
