@@ -107,6 +107,7 @@ img {
   position: fixed;
   height: 42px;
   background-color: rgb(234, 255, 250);
+  z-index: 10;
 }
 .logo {
   display: block;
@@ -1012,16 +1013,19 @@ input[type="button"]:active{
 .box7-card {
   width: 60%;
   background: #FFFFFF;
-  box-shadow: 0px 0px 16px rgba(9, 24, 26, 0.04);
+  /* box-shadow: 0px 0px 16px rgba(9, 24, 26, 0.4); */
   border-radius: 8px;
   padding-bottom: 1%;
   object-fit: cover; 
   
 }
 .sliderNew-item {
+  box-shadow: 0px 0px 7px rgba(9, 24, 26, 0.1);
+  padding: 1%;
 	width: 100%;
 	height: 100%;
   justify-content: center;
+  
 }
 .prev,
 .next {
@@ -1030,7 +1034,7 @@ input[type="button"]:active{
 	align-items: center;
 	color: #ffffff;
 	font-size: 30px;
-	z-index: 100;
+	z-index: 1;
 	width: 12%;
 	height: 100%;
 	position: absolute;
@@ -1050,7 +1054,7 @@ input[type="button"]:active{
 }
 .sliderNew-dots {
 	text-align: center;
-	margin: 1rem 0;
+	margin-top: 2%;
 }
 .dot {
 	cursor: pointer;
@@ -1098,13 +1102,14 @@ input[type="button"]:active{
   justify-content: space-around;
   margin-top: 7%;
 }
-.box7-card {
-  /* width: 30%; */
+/* .box7-card {
+  width: 30%;
   background: #FFFFFF;
   box-shadow: 0px 0px 16px rgba(9, 24, 26, 0.04);
   border-radius: 8px;
   padding-bottom: 1%; 
-}
+ 
+} */
 .box7-card img{
 }
 .box7-card-txt{
@@ -1145,7 +1150,19 @@ input[type="button"]:active{
 .box7-card a:hover{
   color: rgb(64, 218, 172);
 }
-
+.uput7{
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 1s, visibility 1s 0s;
+}
+.hide7__all{
+  opacity: 0;
+  visibility: hidden;
+  max-height: 0px;
+  padding: 0;
+  margin: 0;
+  transition: opacity 0.5s, visibility 0s 0.5s, max-height 0.5s ease-in-out, padding 0.5s, margin 0.5s;
+}
 
 
 
@@ -1608,10 +1625,10 @@ input[type="button"]:active{
     font-size: 12px;
     margin-top: 7px;
   }
-
-
-
-
+  .dot {
+    height: 6px;
+    width: 6px;
+  }
   .box8-item-1 {
     display: none;
   }
@@ -1625,10 +1642,13 @@ input[type="button"]:active{
   .box3-3{
     width: 90%;
   } 
-  .txt3-one-1 a{
+  .tabs__nav-btn{
     font-size: 11px;
   }
-  .txt3-one-2 a{
+  .txt3-one-1{
+    font-size: 11px;
+  }
+  .txt3-one-2{
     font-size: 11px;
   }
   .txt3-two-1{
@@ -1725,10 +1745,14 @@ input[type="button"]:active{
     font-size: 9px;
   }
   .box8-item h2{
-    font-size: 9px;
+    font-size: 8px;
+  }
+  .wrap {
+    width: 85%;
   }
   .box8-item a{
-    font-size: 9px;
+    font-size: 8px;
+    line-height: 10px;
   }
   .box8-one img {
     width: 150px;
@@ -1764,10 +1788,10 @@ input[type="button"]:active{
   .box3-3{
     width: 90%;
   } 
-  .txt3-one-1 a{
+  .txt3-one-1{
     font-size: 10px;
   }
-  .txt3-one-2 a{
+  .txt3-one-2{
     font-size: 10px;
   }
   .txt3-two-1{
@@ -1873,15 +1897,15 @@ input[type="button"]:active{
     width: 25%;
   }
   .box8-item a{
-    font-size: 9px;
-    line-height: 11px;
+    font-size: 7px;
+    line-height: 9px;
   }
   .box8-one img {
     width: 110px;
     height: 12px;
   }
   .box8-three {
-    font-size: 9px;
-    line-height: 15px;
+    font-size: 7px;
+    line-height: 12px;
   }
 }
